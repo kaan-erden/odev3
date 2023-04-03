@@ -1,0 +1,328 @@
+.body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: 202124;
+    background-color: #fff;
+}
+
+
+.right{
+    float: right;
+    margin: 10px;
+    /* background-color: yellowgreen; */
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #202124;
+    text-decoration: none;
+}
+
+.app-profile{
+    /*background-color: aqua; */
+    margin-top: 7px;
+    float: right;
+}
+
+#apps{
+    height: 25px;
+    padding-left: 10px;
+    /*margin-top: 5px; */
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    filter: grayscale(100%);
+}
+
+#profile{
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 21px;
+    border-radius: 50%;
+}
+
+.clear{
+    clear: both;
+}
+
+/**************orta kısım***************/
+
+.mid-search{
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*resmi ortalama*/
+#google{
+    padding-top: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+/*arama kısmı ve butonlar*/
+.box2{
+    /* padding-left: 40%;
+    padding-top: 3%; */
+    padding: 5px 8px 0 14px;
+}
+
+.border{
+    /* background-color: skyblue; */
+    width: 1000px;
+    margin-top: 3%;
+    padding-left: 15%;
+}
+
+search-icon{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    line-height: 24px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+}
+
+.sound{
+    height: 20ğx;
+    width: 20px;
+    display: flex;
+    display: inline-block;
+    padding-top: -50px;
+}
+
+.lens{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    padding-left: 515px;
+    padding-top: 12px;
+}
+
+.search{
+    width: 570px;
+    height: 40px;
+    color: rgba(0, 0, 0,.87);
+    word-wrap: break-word;
+    display: inline-block;
+    background-color: transparent;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    position: absolute;
+    font-size: 16px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    padding-left: 35px;
+}
+
+.box3{
+    text-align: center;
+    margin-top: 25px;
+    /* background-color: steelblue; */
+}
+
+.google-search{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    /* text-align: center; */
+    cursor: pointer;
+    padding: 0 16px;
+}
+
+/* butonların üzerine gelince gölge */
+.google-search:hover {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .15); box-shadow: 0 1px 0 rgba(0, 0, 0, .15);
+}
+
+.lucky{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    /* text-align: center; */
+    cursor: pointer;
+    padding: 0 16px;
+}
+
+/* butonların üzerine gelince */
+.lucky:hover {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .15);box-shadow: 0 1px 0 rgba(0, 0, 0, .15);
+}
+
+/************** footer bölümü **************/
+
+.bottom{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0px 3px;
+    justify-content: space-evenly;
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: -10px;
+    width: 70%;
+}
+
+/* sol alttaki advertising business ve how search work kısımları */
+.sol{
+    justify-content: flex-start;
+    min-width: 30%;
+    order: 1;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    /* background-color: brown; */
+}
+
+.alt1{
+    color: #70757a;
+    display: block;
+    padding: 5px;
+    white-space: normal;
+    text-decoration: none;
+    cursor: pointer;
+    margin: auto;
+}
+
+.alt2{
+    color: #70757a;
+    display: block;
+    padding: 5px;
+    white-space: normal;
+    text-decoration: none;
+    cursor: pointer;
+    margin: auto;
+}
+
+.alt3{
+    color: #70757a;
+    display: block;
+    padding: 5px;
+    white-space: normal;
+    text-decoration: none;
+    cursor: pointer;
+    margin: auto;
+}
+
+/*ortadaki carbon natural since kısmı */
+.mid{
+    order: 2;
+    padding: 5px;
+    justify-content: top;
+    display: block;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #70757a;
+    margin: auto;
+    /* background-color: cadetblue; */
+}
+
+.carbon{
+    padding-left: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #70757a;
+    white-space: nowrap;
+    vertical-align: top;
+    cursor: pointer;
+    margin: auto;
+    /* background-color: yellow; */
+}
+
+/*sağ alttaki privacy terms settings kısımları */
+.sag{
+    justify-content: flex-end;
+    min-width: 30%;
+    order: 3;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 40px;
+    margin: auto;
+    /* backgorund-color: yellow; */
+}
+
+.alt4{
+    color: #70757a;
+    display: block;
+    padding: 14px;
+    white-space: nowrap;
+    text-decoration: none;
+    cursor: pointer;
+    margin: auto;
+    /* background-color: darkorange; */
+}
+
+.alt5{
+    color: #70757a;
+    display: block;
+    padding: 14px;
+    white-space: nowrap;
+    text-decoration: none;
+    cursor: pointer;
+    margin: auto;
+}
+
+.alt6{
+    color: #70757a;
+    display: block;
+    padding: 14px;
+    white-space: nowrap;
+    text-decoration: none;
+    cursor: pointer;
+    margin: auto;
+}
+
+/*settings kısmında dropdown menü */
+span{
+    color: #70757a;
+    display: block;
+    padding: 14px;
+    white-space: nowrap;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.slide{
+    clear: both;
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    text-align: center;
+    transition: height .4s ease;
+}
+
+.slide li {
+    padding: 10px;
+}
+
+#touch {
+    position: absolute;
+    opacity: 0;
+    height: 0px;
+}
+
+#touch:checked + .slide {
+    height: 300px;
+}
